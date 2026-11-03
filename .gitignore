@@ -1,0 +1,57 @@
+# Environments & Secrets
+.env
+.env.local
+.env.*.local
+backend/.env
+backend/.env.production
+whatsapp-gateway/.env
+
+# WhatsApp Web Session & Auth Keys (Sensitive credentials)
+whatsapp-gateway/auth_info_baileys/
+auth_info_baileys/
+
+# Node.js dependencies & builds
+node_modules/
+frontend/node_modules/
+whatsapp-gateway/node_modules/
+frontend/dist/
+dist/
+
+# Python Virtual Environments
+venv/
+backend/venv/
+env/
+ENV/
+.venv/
+
+# Python Bytecode & Cache
+__pycache__/
+*/__pycache__/
+*/*/__pycache__/
+*/*/*/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+backend/.pytest_cache/
+
+# Local Databases & Logs
+*.db
+*.sqlite
+*.sqlite3
+instance/
+backend/instance/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
